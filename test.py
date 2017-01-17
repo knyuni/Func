@@ -5,7 +5,7 @@ import unittest
 from calc import add_numbers  
 
 class TestAddNumbers(unittest.TestCase):
-	#@unittest.skip("WIP")
+	@unittest.skip("WIP")
 
 	def test_input_is_number(self):
 		self.assertRaises(TypeError, str)
