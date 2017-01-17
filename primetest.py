@@ -19,7 +19,7 @@ class test_input(unittest.TestCase):
         "find_even should only accept integers only"
         l = ['a','2.0']
         for a in l:
-            self.assertRaises(even.NonIntegerError, even.find_even, a )
+            self.assertRaises(even.NonIntegerError, prime.find_prime, a )
     
 if __name__ == "__main__":
     unittest.main()
