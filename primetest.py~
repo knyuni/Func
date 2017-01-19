@@ -4,7 +4,7 @@ import random
 
 class primeCheck(unittest.TestCase):
     def test_prime(self):
-        """find_prime should always return True for numbers divisible by itself == 0"""
+        #"""find_prime should always return True for numbers divisible by itself == 0"""
         random_integer = random.randint(0,1000)
         a = random_integer/random_integer
         self.assertEqual((a == int(a)),even.find_prime(random_integer), "wrong answer for "+str(random_integer))
