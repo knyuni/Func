@@ -26,10 +26,9 @@ def data_type(a):
 			return 'more than 100'
 
 	elif a_type ==list:
-		try:
-			if a[2]:
-				return a[2]
-		except(IndexError):
+		if len(a) < 3:
 			return None
+		except(IndexError):
+			return a[2]
 	else:
 		return 'no value'
