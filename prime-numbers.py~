@@ -1,9 +1,9 @@
 def prime_numbers(count):
-
+	n = 1000000
 	i = 2
 	result = []
 
-	while i < count:
+	while i < n:
 		flag = True
 
 
@@ -11,13 +11,15 @@ def prime_numbers(count):
 			if i % item == 0 and i != item: 
 				flag = False
 				break
+
+
+
 			if flag:
 				result.append(i)
 
 		i += 1
-		return result
 
-print(prime_numbers(1000000))
+print(result)
 
 
 
