@@ -1,6 +1,7 @@
 import unittest
 
-from prime-numbers import prime_numbers
+
+
 
 class Greaterlessthantest(unittest.TestCase):
 	def Greater_less_than(self)

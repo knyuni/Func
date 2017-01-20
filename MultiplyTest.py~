@@ -1,6 +1,5 @@
 import unittest
 import multiply
-from prime-numbers import prime_numbers
 
 class test_multiply(unittest.TestCase):
 	def setUp(self):

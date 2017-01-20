@@ -1,5 +1,4 @@
 import unittest
-from prime-numbers import prime_numbers
 
 class Argumenttest(unittest.TestCase):
 	argFoo = "narf"
